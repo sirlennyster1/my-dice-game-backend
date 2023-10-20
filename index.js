@@ -47,7 +47,7 @@ app.post('/api/register', async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  return res.send('Hello World!');
 });
 
 app.post('/api/login', async (req, res) => {
